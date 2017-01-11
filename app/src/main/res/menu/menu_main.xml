@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_second_activity"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/date_picker"
+        android:orderInCategory="200"
+        android:title="Calendar"
+        android:icon="@drawable/calendar_blank"
+        app:showAsAction="ifRoom" />
+</menu>
